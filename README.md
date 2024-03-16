@@ -3,6 +3,8 @@
 An custom GUI IncrementCounter for JUCE Framework
 Try Demo.
 
+Use Projucer to add the .PNG files, as a Binary Resource
+
 add
 #include "IncrementCounter.h"
 
