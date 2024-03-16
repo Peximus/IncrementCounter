@@ -22,3 +22,5 @@ add to Constructor
  set bounts in resized()
 
  increment.setBounds(16, 0, 48, 96);
+
+Greet me at pingsocket@gmail.com
