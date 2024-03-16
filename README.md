@@ -25,4 +25,8 @@ add to Constructor
 
  increment.setBounds(16, 0, 48, 96);
 
+ to retrieve
+ 
+ int inc = increment.getinc();
+
 Greet me at pingsocket@gmail.com
