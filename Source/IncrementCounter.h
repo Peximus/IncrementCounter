@@ -57,13 +57,13 @@ public:
 
         case 2:
             g.drawImage(matrix, 32, 38, 16, matrix.getHeight(), (inc_value % 10) * 16, 0, 16, matrix.getHeight(), false);
-            g.drawImage(matrix, 18, 38, 16, matrix.getHeight(), (inc_value % 100 / 10) * 16, 0, 16, matrix.getHeight(), false);
+            g.drawImage(matrix, 16, 38, 16, matrix.getHeight(), (inc_value % 100 / 10) * 16, 0, 16, matrix.getHeight(), false);
             break;
 
         case 3:
             g.drawImage(matrix, 32, 38, 16, matrix.getHeight(), (inc_value % 10) * 16, 0, 16, matrix.getHeight(), false);
-            g.drawImage(matrix, 18, 38, 16, matrix.getHeight(), (inc_value % 100 / 10) * 16, 0, 16, matrix.getHeight(), false);
-            g.drawImage(matrix, 2, 38, 16, matrix.getHeight(), (inc_value % 1000 / 100) * 16, 0, 16, matrix.getHeight(), false);
+            g.drawImage(matrix, 16, 38, 16, matrix.getHeight(), (inc_value % 100 / 10) * 16, 0, 16, matrix.getHeight(), false);
+            g.drawImage(matrix, 0, 38, 16, matrix.getHeight(), (inc_value % 1000 / 100) * 16, 0, 16, matrix.getHeight(), false);
             break;
 
         }
